@@ -1,11 +1,21 @@
 .element {
   width: 500px;
-  margin: 0 auto;
-  background-color: #eeeeef;
-  overflow: hidden;
+  margin: 0 auto; }
+  .element .body {
+    padding: 50px;
+    background-color: #eceff1;
+    border-radius: 20px; }
+
+.toggle-element .toggle-body {
   height: 0;
+  overflow: hidden;
   -webkit-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   -o-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
-  .element .body {
-    padding: 50px; }
+
+.button {
+  background-color: #00bcd4;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 20px; }
