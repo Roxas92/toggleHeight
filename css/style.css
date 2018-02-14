@@ -1,0 +1,11 @@
+.element {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #eeeeef;
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .element .body {
+    padding: 50px; }
